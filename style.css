@@ -11,7 +11,7 @@
     GENERAL
 ------------- */
 body{
-    /* background-color: black; */
+    background-color: black;
 }
 .row{
     display: flex;
@@ -19,11 +19,15 @@ body{
 }
 button{
     border: none;
+    cursor: pointer;
 }
 
 /* -------------
     HEADER
 ------------- */
+header{
+    height: 60px;
+}
 .row-head{
     justify-content: flex-end;
     gap: 5px;
@@ -41,7 +45,7 @@ button{
     MAIN
 ------------- */
 .cam-container{
-    padding: 0 70px;
+    padding: 0 60px;
 }
 .cam{
     position: relative;
@@ -58,3 +62,32 @@ button{
 /* -------------
     FOOTER
 ------------- */
+footer{
+    height: 80px;
+    background-color: #222222;
+}
+.icon i{
+    font-size: 20px;
+}
+.icon div{
+    padding-top: 5px;
+}
+.row-footer{
+    justify-content: space-between;
+    line-height: 80px;
+}
+.row-footer button{
+    background-color: #222222;
+    color: #fff;
+    padding: 0 5px;
+}
+.row-footer > div {
+    padding-left: 5px;
+}
+.end, .end button{
+    background-color: #4a4a4a;
+}
+.end button{
+    padding: 0px 10px;
+    color: red;
+}
