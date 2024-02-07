@@ -88,6 +88,9 @@ footer{
 .row-footer > div {
     padding-left: 5px;
 }
+.color i{
+    color: green;
+}
 .end, .end button{
     background-color: #4a4a4a;
 }
