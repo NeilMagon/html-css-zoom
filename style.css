@@ -45,7 +45,7 @@ header{
     MAIN
 ------------- */
 main{
-    height: calc(100vh - 120px);
+    height: calc(100vh - 110px);
     overflow-y: auto;   
 }
 .cam-container{
@@ -67,7 +67,7 @@ main{
     FOOTER
 ------------- */
 footer{
-    height: 80px;
+    height: 70px;
     background-color: #222222;
 }
 .icon i{
@@ -78,7 +78,7 @@ footer{
 }
 .row-footer{
     justify-content: space-between;
-    line-height: 80px;
+    line-height: 70px;
 }
 .row-footer button{
     background-color: #222222;
