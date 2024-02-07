@@ -26,7 +26,7 @@ button{
     HEADER
 ------------- */
 header{
-    height: 60px;
+    height: 40px;
 }
 .row-head{
     justify-content: flex-end;
@@ -44,6 +44,10 @@ header{
 /* -------------
     MAIN
 ------------- */
+main{
+    height: calc(100vh - 120px);
+    overflow-y: auto;   
+}
 .cam-container{
     padding: 0 60px;
 }
