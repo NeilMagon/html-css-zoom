@@ -1,0 +1,46 @@
+/* -------------
+    RESET
+------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -------------
+    GENERAL
+------------- */
+body{
+    background-color: black;
+}
+.row{
+    display: flex;
+}
+button{
+    border: none;
+}
+
+/* -------------
+    HEADER
+------------- */
+.row-head{
+    justify-content: flex-end;
+    gap: 5px;
+}
+.row-head, .row-head button{
+    padding: 5px 5px;
+}
+.row-head button{
+    background-color: #4a4a4a;
+    color: #fff;
+    border-radius: 8px;
+}
+
+/* -------------
+    MAIN
+------------- */
+
+
+/* -------------
+    FOOTER
+------------- */
