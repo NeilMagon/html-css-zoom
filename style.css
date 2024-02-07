@@ -11,10 +11,11 @@
     GENERAL
 ------------- */
 body{
-    background-color: black;
+    /* background-color: black; */
 }
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 button{
     border: none;
@@ -39,7 +40,20 @@ button{
 /* -------------
     MAIN
 ------------- */
-
+.cam-container{
+    padding: 0 70px;
+}
+.cam{
+    position: relative;
+    padding: 5px 2px;
+}
+.name{
+    background-color: #68737c;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 2px;
+}
 
 /* -------------
     FOOTER
